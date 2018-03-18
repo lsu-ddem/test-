@@ -12,7 +12,6 @@ collections:
         name: "home"
         fields: 
           - {label: Title, name: title, widget: string}
-          - {label: Weight, name: weight, widget: number}
           - {label: Body, name: body, widget: markdown}
 
 
