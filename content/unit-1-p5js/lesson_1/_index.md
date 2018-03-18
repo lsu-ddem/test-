@@ -1,5 +1,5 @@
 ---
-title: Basic Shapes
+title: "Basic Shapes"
 weight: 1
 ---
 

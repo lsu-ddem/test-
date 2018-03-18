@@ -1,14 +1,9 @@
 ---
-<<<<<<< HEAD
 title: "Programming Digital Media"
-=======
-title: Learn Theme for Hugo
->>>>>>> ca6df78c9d44cfb8b8c8fbb6a6df4b5f35f93bbf
 ---
 
 ## Hi
 
-<<<<<<< HEAD
 ### Expanding text
 
 {{%expand%}}
@@ -39,6 +34,5 @@ An warning disclaimer
 {{% /notice %}}
 
 Also more if you make them custom
-=======
-I am editing the homepage 
->>>>>>> ca6df78c9d44cfb8b8c8fbb6a6df4b5f35f93bbf
+
+I am editing the homepage
