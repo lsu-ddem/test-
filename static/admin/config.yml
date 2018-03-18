@@ -4,17 +4,14 @@ backend:
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "content-organisation" # Used in routes, e.g., /admin/collections/blog
-    label: "Lesson" # Used in the UI
-    folder: "content" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{name}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string"}
-      # - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Weight", name: "weight", widget: "number"}
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages"
+    files: 
+      - file: 'content/_index.en.md'
+        label: "Home Page"
+        name: "home"
+          - {label: Title, name: title, widget: string}
+          - {label: Weight, name: weight, widget: number}
+          - {label: Body, name: body, widget: markdown}
 
-     
-      - {label: "Body", name: "body", widget: "markdown"}
+
