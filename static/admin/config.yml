@@ -1,5 +1,6 @@
 backend:
   name: git-gateway
+  repo: tatecarson/lsu-ddem-new
   branch: master # Branch to update (optional; defaults to master)
 
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
@@ -8,7 +9,6 @@ collections:
   - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
     folder: "content/basics" # The path to the folder where the documents are stored
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
