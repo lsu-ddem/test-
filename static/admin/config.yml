@@ -7,7 +7,7 @@ collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages"
     files: 
-      - file: 'content/_index.en.md'
+      - file: 'content/en/_index.en.md'
         label: "Home Page"
         name: "home"
         fields: 
