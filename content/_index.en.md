@@ -1,5 +1,7 @@
 ---
-title: "Learn Theme for Hugo"
+title: Learn Theme for Hugo
 ---
 
 ## Hi
+
+I am editing the homepage 
