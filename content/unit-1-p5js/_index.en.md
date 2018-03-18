@@ -1,6 +1,9 @@
 ---
 title: Basics
+pre: "<b>1. </b>"
+weight: 1
 ---
+
 ### Chapter 1
 
 # Basics
