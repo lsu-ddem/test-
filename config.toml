@@ -1,4 +1,4 @@
-baseURL = "site"
+baseURL = "/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
