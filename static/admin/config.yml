@@ -6,7 +6,7 @@ media_folder: "images/uploads" # Media files will be stored in the repo under im
 collections:
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "content/en" # The path to the folder where the documents are stored
+    folder: "lsu-ddem/content" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - {label: "Title", name: "title", widget: "string"}
@@ -14,14 +14,6 @@ collections:
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Pages"
-    files: 
-      - file: 'content/en/_index.en.md'
-        label: "Home Page"
-        name: "home"
-        fields: 
-          - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
+
 
 
