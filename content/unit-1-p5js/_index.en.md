@@ -1,6 +1,6 @@
 ---
 title: Basics
-chapter = true
+chapter: true
 pre: "<b>1. </b>"
 weight: 1
 ---
