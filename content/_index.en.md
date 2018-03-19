@@ -2,7 +2,7 @@
 title: "Programming Digital Media"
 ---
 
-## Hi
+## Programming Digital Media
 
 ### Expanding text
 
