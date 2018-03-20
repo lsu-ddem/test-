@@ -6,12 +6,12 @@ title: Basic Shapes
 
 Make a rectangle:
 
-```javascript
+```js
 rect(100, 100, 100, 100);
 ```
 
 make an ellipse:
 
-```javascript
+```js
 ellipse(100, 100, 100, 100);
 ```
