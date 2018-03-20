@@ -1,18 +1,17 @@
 ---
 title: Lesson 1
-weight: 1
 ---
 
 # Basics
 
 Make a rectangle:
 
-```javacsript
+```js
 rect(100, 100, 100, 100)
 ```
 
 make an ellipse:
 
-```javacsript
+```js
 ellipse(100, 100, 100, 100)
 ```
