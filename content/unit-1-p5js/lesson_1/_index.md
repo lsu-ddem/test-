@@ -1,18 +1,17 @@
 ---
-title: "Basic Shapes"
-weight: 1
+title: Basic Shapes
 ---
 
 # Basics
 
 Make a rectangle:
 
-```js
+```javascript
 rect(100, 100, 100, 100);
 ```
 
 make an ellipse:
 
-```js
+```javascript
 ellipse(100, 100, 100, 100);
 ```
