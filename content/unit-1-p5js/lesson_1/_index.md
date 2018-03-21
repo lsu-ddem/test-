@@ -1,11 +1,11 @@
 ---
-title: "Basic Shapes"
-weight: 1
+title: Basic Shapes
 ---
-
 # Basics
 
 Make a rectangle:
+
+i'm making a change 
 
 ```js
 rect(100, 100, 100, 100);
